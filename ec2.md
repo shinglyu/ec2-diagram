@@ -10,8 +10,8 @@ graph LR;
   T1 --> T2
   T2 --> T3a[T3a: AMD EPYC 7000]
   T2 --> T3[T3: Intel Xeon Platinum]
-  T3a --> T4[ T4: AWS Graviton2]
-  T3 --> T4
+  T3a --> T4g[ T4g: AWS Graviton2]
+  T3 --> T4g
   GP --> A1[A1: AWS Graviton]
   GP --> M4[M4: Intel Xeon]
   M4 --> M5[M5: Intel Xeon Platinum 8175M]
